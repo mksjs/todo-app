@@ -4,12 +4,14 @@ import FirstComponent, { ThirdComponent, FourthComponent } from './components/le
 import './App.css';
 import SecondComponent  from './components/learning-examples/SecondComponent';
 import Counter from './components/Counter/Counter';
+import TodoApp from './components/todo/TodoApp';
  
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Counter/>
+        {/* <Counter/> */}
+        <TodoApp/>
       </div>
     );
   }
